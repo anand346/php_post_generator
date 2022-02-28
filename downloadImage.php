@@ -63,7 +63,7 @@ function getPhoto($jsonData){
             $image_url = explode("/",$image_url);
             $image_name = end($image_url);
             $image_media = getHtmlFromUrl($imageUrl);
-            $fileHandle =  fopen("./downloads/".$image_name,"wb");
+            $fileHandle =  fopen("./downloads/"."img.jpg","wb");
             fwrite($fileHandle,$image_media);
             fclose($fileHandle);
             $contentUrl[0]['url'] = $imageUrl;
