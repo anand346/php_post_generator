@@ -1,0 +1,118 @@
+{
+    "Name": "first_automate",
+    "CreationDate": "2022-2-28",
+    "Commands": [
+      {
+        "Command": "open",
+        "Target": "https://instagram.com",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "selectWindow",
+        "Target": "tab=0",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "css=#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.ctQZg.KtFt3 > div > div:nth-child(3) > div > button > div > svg",
+        "Value": "",
+        "Targets": [
+          "xpath=//*[@id=\"react-root\"]/section/nav/div[2]/div/div/div[3]/div/div[3]/div/button/div/svg",
+          "css=#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.ctQZg.KtFt3 > div > div:nth-child(3) > div > button > div > svg"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "xpath=/html/body/div[8]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/button",
+        "Value": "",
+        "Targets": [
+          "xpath=/html/body/div[8]/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/button",
+          "xpath=//div/div/div/div[2]/div/div/div/div[2]/div/button",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.uYzeu > div._C8iK > div > div > div.qF0y9.Igw0E.rBNOH.eGOV_.ybXk5._4EzTm.kEKum > div > button"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "xpath=/html/body/div[8]/div[2]/div/div/div/div[2]/div/form/input",
+        "Value": "",
+        "Targets": [
+          "xpath=/html/body/div[8]/div[2]/div/div/div/div[2]/div/form/input",
+          "xpath=//div[2]/div/form/input",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.uYzeu > div._C8iK > form > input"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "XType",
+        "Target": "C:\\Users\\India\\OneDrive\\Pictures\\Screenshots\\Screenshot (2).png",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "pause",
+        "Target": "20000",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "XType",
+        "Target": "${KEY_ENTER}",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+        "Value": "",
+        "Targets": [
+          "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "xpath=//div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.qF0y9.Igw0E.IwRSH.eGOV_._4EzTm > div > div > div:nth-child(3) > div > button"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+        "Value": "",
+        "Targets": [
+          "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "xpath=//div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.qF0y9.Igw0E.IwRSH.eGOV_._4EzTm > div > div > div:nth-child(3) > div > button"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "type",
+        "Target": "xpath=/html/body/div[6]/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/textarea",
+        "Value": "hello world",
+        "Targets": [
+          "xpath=/html/body/div[6]/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/textarea",
+          "xpath=//div/textarea",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.uYzeu.gIMwG > div._83r9B > div > div > div > div:nth-child(2) > div.qF0y9.Igw0E.IwRSH.eGOV_._4EzTm > textarea"
+        ],
+        "Description": ""
+      },
+      {
+        "Command": "pause",
+        "Target": "20000",
+        "Value": "",
+        "Description": ""
+      },
+      {
+        "Command": "click",
+        "Target": "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+        "Value": "",
+        "Targets": [
+          "xpath=/html/body/div[6]/div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "xpath=//div[2]/div/div/div/div/div/div/div[2]/div/button",
+          "css=body > div.RnEpo.gpWnf.Yx5HN > div.pbNvD > div > div > div > div.qF0y9.Igw0E.IwRSH.eGOV_._4EzTm > div > div > div:nth-child(3) > div > button"
+        ],
+        "Description": ""
+      }
+    ]
+  }

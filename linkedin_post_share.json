@@ -1,0 +1,84 @@
+{
+  "Name": "linkedin_post_share",
+  "CreationDate": "2022-2-28",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://linkedin.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "start_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClickRelative",
+      "Target": "document2_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "choose_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "pdf_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "open_btn_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "input_pdf_dpi_96.png",
+      "Value": "#doubleclick",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "css",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "done_btn_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "post_desc_dpi_96.png",
+      "Value": "#doubleclick",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "Books that changed my life ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "Post_btn_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

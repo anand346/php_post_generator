@@ -1,0 +1,18 @@
+{
+  "Name": "first_automate",
+  "CreationDate": "2022-2-28",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://instagram.com",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=1",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
