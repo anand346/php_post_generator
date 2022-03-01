@@ -1,5 +1,5 @@
 {
-  "Name": "linkedin_post_share",
+  "Name": "linkedin_post_share_image",
   "CreationDate": "2022-2-28",
   "Commands": [
     {
@@ -9,50 +9,38 @@
       "Description": ""
     },
     {
-      "Command": "XClick",
-      "Target": "start_dpi_96.png",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "XClickRelative",
-      "Target": "document2_dpi_96.png",
+      "Command": "pause",
+      "Target": "5000",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "XClick",
-      "Target": "choose_dpi_96.png",
+      "Target": "photo_btn1_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "file_address_dpi_96.png",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "XType",
-      "Target": "C:\\Users\\India\\OneDrive\\Desktop\\uivision\\macros\\desktop_automate\\pdf\\myImages.pdf",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "XClick",
-      "Target": "open_btn_dpi_96.png",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "XClick",
-      "Target": "input_pdf_title_dpi_96.png",
-      "Value": "#doubleclick",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "20000",
+      "Target": "C:\\Users\\India\\OneDrive\\Desktop\\uivision\\macros\\desktop_automate\\downloads\\img.jpg",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "XClickRelative",
-      "Target": "done_btn1_dpi_96.png",
+      "Target": "open_btn2_dpi_96.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClickRelative",
+      "Target": "done_btn3_dpi_96.png",
       "Value": "",
       "Description": ""
     },
@@ -70,13 +58,7 @@
     },
     {
       "Command": "XClick",
-      "Target": "Post_btn_dpi_96.png",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "",
-      "Target": "",
+      "Target": "post_btn_dpi_96.png",
       "Value": "",
       "Description": ""
     }

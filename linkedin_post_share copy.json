@@ -27,8 +27,8 @@
       "Description": ""
     },
     {
-      "Command": "XType",
-      "Target": "C:\\Users\\India\\OneDrive\\Desktop\\uivision\\macros\\desktop_automate\\pdf\\myImages.pdf",
+      "Command": "XClick",
+      "Target": "pdf_dpi_96.png",
       "Value": "",
       "Description": ""
     },
@@ -40,19 +40,19 @@
     },
     {
       "Command": "XClick",
-      "Target": "input_pdf_title_dpi_96.png",
+      "Target": "input_pdf_dpi_96.png",
       "Value": "#doubleclick",
       "Description": ""
     },
     {
-      "Command": "pause",
-      "Target": "20000",
+      "Command": "XType",
+      "Target": "css",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "XClickRelative",
-      "Target": "done_btn1_dpi_96.png",
+      "Command": "XClick",
+      "Target": "done_btn_dpi_96.png",
       "Value": "",
       "Description": ""
     },
@@ -63,8 +63,8 @@
       "Description": ""
     },
     {
-      "Command": "pause",
-      "Target": "60000",
+      "Command": "XType",
+      "Target": "Books that changed my life ",
       "Value": "",
       "Description": ""
     },
