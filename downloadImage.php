@@ -58,7 +58,7 @@ function getPhoto($jsonData){
             // $imageUrl = $jsonData["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]["display_url"];
             $i = count($jsonData["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]["display_resources"]) - 1;
             $imageUrl = $jsonData["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]["display_resources"][$i]["src"];
-            preg_match("/(http[s]*:\/\/)([a-z\-_0-9\/.]+)\.([a-z.]{2,3})\/([a-z0-9\-_\/._~:?#\[\]@!$&'()*+,;=%]*)([a-z0-9]+\.)(jpg|jpeg)/i",$imageUrl,$matches);
+            preg_match("/(http[s]*:\/\/)([a-z\-_0-9\/.]+)\.([a-z.]{2,3})\/([a-z0-9\-_\/._~:?#\[\]@!$&'()*+,;=%]*)([a-z0-9]+\.)(jpg|jpeg|webp)/i",$imageUrl,$matches);
             $image_url = $matches[0];
             $image_url = explode("/",$image_url);
             $image_name = end($image_url);
