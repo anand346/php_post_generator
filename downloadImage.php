@@ -1,5 +1,25 @@
 <?php
 
+function printBanner(){
+    echo chr(27).chr(91).'H'.chr(27).chr(91).'J'; //^[H^[J 
+echo "
+_______________________________________________________________________________________
+|                                                                                      |
+|  ____          _            _                     _                 _                |
+| |_  _|        | |          | |                   | |               | |               |
+|  | | _ __  ___| |_ __ _  __| | _____      ___ __ | | ___   __ _  __| | ___ _ __      |
+|  | || '_ \/ __| __/ _` |/ _` |/ _ \ \ /\ / / '_ \| |/ _ \ / _` |/ _` |/ _ \ '__|     |
+| _| || | | \__ \ || (_| | (_| | (_) \ V  V /| | | | | (_) | (_| | (_| |  __/ |        |
+| \___/_| |_|___/\__\__,_|\__,_|\___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|\___|_|        |
+|                                                                                      |
+|                                                                                      |
+|    Author  :- Anand Raj                                                              |
+|    Date    :- 08 november 2021                                                       |
+|    Purpose :- To download images from instagram                                      |
+|______________________________________________________________________________________|
+";
+}
+
 function getHtmlFromUrl($url){
     $agents = array(
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:7.0.1) Gecko/20100101 Firefox/7.0.1',
@@ -72,7 +92,7 @@ function getPhoto($jsonData){
             $children = $jsonData["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]["edge_sidecar_to_children"]["edges"];
             for($i = 0; $i < sizeof($children); $i++){
                 $contentUrl[$i]['url'] = $jsonData["entry_data"]["PostPage"][0]["graphql"]["shortcode_media"]["edge_sidecar_to_children"]["edges"][$i]["node"]["display_url"];
-                preg_match("/(http[s]*:\/\/)([a-z\-_0-9\/.]+)\.([a-z.]{2,3})\/([a-z0-9\-_\/._~:?#\[\]@!$&'()*+,;=%]*)([a-z0-9]+\.)(jpg|jpeg)/i",$contentUrl[$i]['url'],$matches);
+                preg_match("/(http[s]*:\/\/)([a-z\-_0-9\/.]+)\.([a-z.]{2,3})\/([a-z0-9\-_\/._~:?#\[\]@!$&'()*+,;=%]*)([a-z0-9]+\.)(jpg|jpeg|webp)/i",$contentUrl[$i]['url'],$matches);
                 $image_url = $matches[0];
                 $image_url = explode("/",$image_url);
                 $image_name = end($image_url);
@@ -111,6 +131,7 @@ if($argv[1]){
         $url = $argv[1];
     }
 }
+printBanner();
 $data = getJsonData($url);
 getPhoto($data);
 
