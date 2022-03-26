@@ -83,6 +83,9 @@ function getPhoto($jsonData){
             $image_url = explode("/",$image_url);
             $image_name = end($image_url);
             $image_media = getHtmlFromUrl($imageUrl);
+            if(!file_exists("downloads")){
+                mkdir("downloads");
+            }
             $fileHandle =  fopen("./downloads/"."img.jpg","wb");
             fwrite($fileHandle,$image_media);
             fclose($fileHandle);
@@ -97,7 +100,9 @@ function getPhoto($jsonData){
                 $image_url = explode("/",$image_url);
                 $image_name = end($image_url);
                 $image_media = getHtmlFromUrl($contentUrl[$i]['url']);
-                
+                if(!file_exists("downloads")){
+                    mkdir("downloads");
+                }  
                 $fileHandle =  fopen("./downloads/"."img".$i.".jpg","wb");
                 fwrite($fileHandle,$image_media);
                 fclose($fileHandle);
